@@ -1,0 +1,96 @@
+#header {
+    height: 30vh;
+    text-align: center;
+    background-image: url('../images/pattern-bg.png');
+
+}
+
+#header h1 {
+    color: white;
+    padding-top: 20px;
+    font-weight: $light;
+    font-size: 1.5rem;
+}
+
+#error-message {
+    text-align: center;
+    color: rgba(255, 30, 0, 0.8);
+    text-shadow: 1px 1px 1px black ;
+    visibility: hidden;
+}
+
+#search-container {
+    margin-top:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ip-search {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px 0 0px 10px;
+    border: 0px;
+    box-shadow: 2px 2px 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    cursor: text;
+    
+
+}
+
+#ip-search:focus {
+    outline: none;
+}
+
+#ip-search-btn {
+    height: 30px;
+    width: 30px;
+    margin-left: -5px; 
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: $very-dark-gray;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+#info-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22vh;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 99;
+    box-shadow: 2px 2px 5px;
+}
+
+.box {
+    align-self: center;
+    border-right: 2px solid rgba($color: $dark-gray, $alpha: 0.5);
+    height: 80%; 
+    width: 100%;
+    padding: 20px;
+ 
+}    
+
+.box:last-child {
+    border: none;
+}
+
+.name {
+    color: rgba($color: $dark-gray, $alpha: 1.0);
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+
+
+#map {
+    height: 65vh;
+    z-index: 1;
+}

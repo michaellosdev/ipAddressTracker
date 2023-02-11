@@ -1,0 +1,16 @@
+@import './global.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    font-size: 18px;
+}
+
+
+
+
+@import './phone-design.scss';
+@import './desktop-design.scss';
+
